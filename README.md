@@ -324,7 +324,7 @@ Se você utilizar este trabalho em pesquisa acadêmica, por favor cite:
   title        = {$\pi\sqrt{f(A)}$: Álgebra Hexarrelacional de Significância para Algoritmos},
   author       = Guilherme Gonçalves Machado
   year         = {2026},
-  url          = {https://github.com/marcabru-tech/pi-root-f-A},
+  url          = {https://github.com/marcabru-tech/algebra-hexarrelacional},
   note         = {PoC/MVP da teoria de avaliação semiótica e transpilação semântica iterativa (IPII) via GuruMatrix 5D},
 }
 ```
