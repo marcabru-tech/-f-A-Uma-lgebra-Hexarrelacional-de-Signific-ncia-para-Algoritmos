@@ -4,8 +4,39 @@
 [![License](https://img.shields.io/badge/license-PolyForm%20Noncommercial-red.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 
+🌐 **Language / Idioma:** [Português](README.md) · [English](README.en.md)
+
 > **Implementação da Álgebra Hexarrelacional de Significância para Algoritmos.**  
 > Framework para avaliação semiótica e transpilação semântica iterativa (IPII) via GuruMatrix 5D.
+>
+> *Implementation of the Hexarelational Significance Algebra for Algorithms —  
+> a framework for semiotic evaluation and iterative semantic transpilation (IPII) via a 5D GuruMatrix.*
+
+---
+
+## Theoretical Summary
+
+The $\pi\sqrt{f(A)}$ notation — read as *"π-th root of f of A"* — is the foundation of a significance algebra for algorithms, inspired by **Leibniz** (calculus as the language of infinity), **Peirce** (triadic semiotics and the logic of signs), and **Ramanujan** (transcendent intuition in numerical relations). The canonical operator is:
+
+$$\Pi(A) := [f(A)]^{1/\pi}$$
+
+where the transcendental exponent $1/\pi \approx 0.3183$ ensures **irreducibility**, reinscribing the algorithm's significance into the continuum.
+
+**Ontological Hierarchy:** Algorithm $A$ → interpreted $f(A)$ → compressed scale $\sqrt{f(A)}$ → continuum reinscription $[f(A)]^{1/\pi}$.
+
+**Five Operative Modes** (funtors of $f$): Operationalize ($\mathbb{O}$) · Process ($\mathbb{P}$) · Distribute ($\mathbb{D}$) · Infer ($\mathbb{I}$) · Incide ($\mathbb{N}$).
+
+**Six Significance Relations** ($\rho_1$–$\rho_6$): Similitude · Homology · Equivalence · Symmetry · Equilibrium · Compensation — a hierarchy from partial to full significance overlap.
+
+**GuruMatrix:** A 5D tensor $G(i,j,k,t,l)$ cataloguing computational patterns across ontological category, semantic field, hermeneutic level, execution time, and target language.
+
+**IPII (Iterative Parametric Interaction by Interoperability):** Semantic transpilation protocol orchestrating the 5 modes and evaluating output quality using the 6 relations, maximising $\Pi(A)$.
+
+## New Features
+
+- **Dynamic GuruMatrix:** The tensor now learns from successful transpilations via `learn_from_transpilation`, with persistence via `save`/`load` (NumPy `.npy`), enabling continuous improvement across sessions.
+- **LLM Integration in Infer Mode:** The Infer mode ($\mathbb{I}$) can delegate candidate scoring to any OpenAI-compatible LLM (`LLMScorer`, `build_llm_scorer`). Falls back silently to the internal heuristic scorer when unavailable.
+- **Significance Profile Visualisation:** `plot_significance_profile` generates a radar chart of the six significance scores (ρ₁–ρ₆), also available as automatic output from `SemanticTranspiler`.
 
 ---
 
@@ -345,6 +376,12 @@ Distribuído sob a licença **PolyForm Noncommercial 1.0.0**. Consulte [LICENSE]
 - ✅ **Permitido:** uso pessoal (estudo, hobby, experimento) e uso acadêmico / pesquisa pública.
 - ❌ **Proibido:** qualquer uso comercial sem autorização prévia e por escrito do titular.
 - 💼 **Licença comercial:** entre em contato com [guilhermemachado.ceo@hubstry.dev](mailto:guilhermemachado.ceo@hubstry.dev).
+
+Distributed under the **PolyForm Noncommercial 1.0.0** license. See [LICENSE](LICENSE) and [TERMS.md](TERMS.md) for full details.
+
+- ✅ **Allowed:** personal use (study, hobby, experiment) and academic / public research use.
+- ❌ **Prohibited:** any commercial use without prior written permission from the copyright holder.
+- 💼 **Commercial licensing:** contact [guilhermemachado.ceo@hubstry.dev](mailto:guilhermemachado.ceo@hubstry.dev).
 
 ---
 
