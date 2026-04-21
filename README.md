@@ -1,7 +1,7 @@
 # $\pi\sqrt{f(A)}$: Álgebra Hexarrelacional de Significância para Algoritmos
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-PolyForm%20Noncommercial-red.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 
 > **Implementação da Álgebra Hexarrelacional de Significância para Algoritmos.**  
@@ -338,9 +338,13 @@ Se você utilizar este trabalho em pesquisa acadêmica, por favor cite:
 
 ---
 
-## Licença
+## Licença / License
 
-Distribuído sob a licença **Apache 2.0**. Consulte o arquivo [LICENSE](LICENSE) para detalhes.
+Distribuído sob a licença **PolyForm Noncommercial 1.0.0**. Consulte [LICENSE](LICENSE) e [TERMS.md](TERMS.md) para detalhes completos.
+
+- ✅ **Permitido:** uso pessoal (estudo, hobby, experimento) e uso acadêmico / pesquisa pública.
+- ❌ **Proibido:** qualquer uso comercial sem autorização prévia e por escrito do titular.
+- 💼 **Licença comercial:** entre em contato com [guilhermemachado.ceo@hubstry.dev](mailto:guilhermemachado.ceo@hubstry.dev).
 
 ---
 
