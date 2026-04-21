@@ -28,7 +28,7 @@ is always syntactically present (though may be semantically incomplete).
 from __future__ import annotations
 
 import ast
-from typing import Any, Dict, List, Optional
+from typing import Dict, List, Optional
 
 
 # ---------------------------------------------------------------------------
@@ -196,7 +196,7 @@ class _PyToJSVisitor(ast.NodeVisitor):
     # ------------------------------------------------------------------
     # expression helper
 
-    def _expr(self, node: Any) -> str:  # noqa: ANN401
+    def _expr(self, node: Optional[ast.AST]) -> str:
         if node is None:
             return "null"
         if isinstance(node, ast.Constant):
@@ -389,7 +389,7 @@ class _PyToRustVisitor(ast.NodeVisitor):
     # ------------------------------------------------------------------
     # expression helper
 
-    def _expr(self, node: Any) -> str:  # noqa: ANN401
+    def _expr(self, node: Optional[ast.AST]) -> str:
         if node is None:
             return "()"
         if isinstance(node, ast.Constant):
