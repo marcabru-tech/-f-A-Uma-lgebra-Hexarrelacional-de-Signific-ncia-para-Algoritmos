@@ -1,0 +1,38 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Project {
+  id             String          @id @default(cuid())
+  name           String
+  description    String?
+  language       String          @default("python")
+  createdAt      DateTime        @default(now())
+  transpilations Transpilation[]
+  relations      Relation[]
+}
+
+model Transpilation {
+  id         String   @id @default(cuid())
+  projectId  String
+  project    Project  @relation(fields: [projectId], references: [id])
+  sourceCode String
+  targetLang String
+  outputCode String
+  createdAt  DateTime @default(now())
+}
+
+model Relation {
+  id        String   @id @default(cuid())
+  projectId String
+  project   Project  @relation(fields: [projectId], references: [id])
+  setA      String
+  setB      String
+  metrics   String
+  createdAt DateTime @default(now())
+}
