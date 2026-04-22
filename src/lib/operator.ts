@@ -5,7 +5,7 @@
  *   Π(A) := [f(A)]^(1/π)  where π = 3.14159...
  *
  * Key properties:
- *   1. Irredutibility — the exponent 1/π is transcendental.
+ *   1. Irreducibility — the exponent 1/π is transcendental.
  *   2. Compression — compresses peaks and raises minima toward 1.
  *   3. Convergence (Theorem 6.2) — iterating Π drives any positive finite
  *      value toward 1: lim_{n→∞} (f_A)^{(1/π)^n} = 1 for f_A > 0.
