@@ -14,8 +14,8 @@ export async function POST(req: NextRequest) {
       );
     }
     const relations: RelationsProfile = computeRelations(
-      code as string,
-      referenceCode as string,
+      code,
+      referenceCode,
     );
     return NextResponse.json({ relations });
   } catch {

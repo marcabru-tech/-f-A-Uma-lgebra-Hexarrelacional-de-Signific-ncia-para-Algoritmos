@@ -9,12 +9,12 @@ export async function POST(req: NextRequest) {
     }
     const result: Record<string, string> = {};
     if (!targetLang || targetLang === 'javascript') {
-      result['javascript'] = pyToJS(code as string);
+      result['javascript'] = pyToJS(code);
     }
     if (!targetLang || targetLang === 'rust') {
-      result['rust'] = pyToRust(code as string);
+      result['rust'] = pyToRust(code);
     }
-    if (targetLang && !result[targetLang as string]) {
+    if (targetLang && !result[targetLang]) {
       return NextResponse.json(
         { error: `Linguagem não suportada: ${targetLang}` },
         { status: 400 },

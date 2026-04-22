@@ -31,8 +31,8 @@ export async function POST(req: NextRequest) {
           { status: 400 },
         );
       }
-      const result = piRadical(fA as number);
-      const trajectory = fA > 0 ? iterateConvergence(fA as number, iterations) : [0];
+      const result = piRadical(fA);
+      const trajectory = fA > 0 ? iterateConvergence(fA, iterations) : [0];
       return NextResponse.json({ result, trajectory });
     }
 
