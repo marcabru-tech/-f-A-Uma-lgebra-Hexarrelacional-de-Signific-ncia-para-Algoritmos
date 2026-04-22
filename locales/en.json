@@ -1,0 +1,10 @@
+{
+  "app.name": "Hexarelational Significance Algebra",
+  "nav.dashboard": "Dashboard",
+  "nav.relations": "Relations",
+  "nav.operators": "Operators",
+  "nav.settings": "Settings",
+  "plan.runs_per_day": "{count} runs per day",
+  "error.run.timeout": "Timeout after {seconds} seconds",
+  "error.run.input_too_large": "Input too large ({kb} KB)"
+}
