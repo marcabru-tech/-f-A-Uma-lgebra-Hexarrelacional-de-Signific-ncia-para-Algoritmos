@@ -1,0 +1,10 @@
+{
+  "app.name": "Álgebra de Significância Hexarrelacional",
+  "nav.dashboard": "Painel",
+  "nav.relations": "Relações",
+  "nav.operators": "Operadores",
+  "nav.settings": "Configurações",
+  "plan.runs_per_day": "{count} execuções por dia",
+  "error.run.timeout": "Tempo limite após {seconds} segundos",
+  "error.run.input_too_large": "Entrada muito grande ({kb} KB)"
+}

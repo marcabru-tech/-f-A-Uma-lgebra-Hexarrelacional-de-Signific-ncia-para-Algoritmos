@@ -1,0 +1,10 @@
+{
+  "app.name": "جبر الأهمية السداسية العلائقية",
+  "nav.dashboard": "لوحة التحكم",
+  "nav.relations": "العلاقات",
+  "nav.operators": "المشغلون",
+  "nav.settings": "الإعدادات",
+  "plan.runs_per_day": "{count} تشغيل في اليوم",
+  "error.run.timeout": "انتهت المهلة بعد {seconds} ثانية",
+  "error.run.input_too_large": "الإدخال كبير جداً ({kb} كيلوبايت)"
+}

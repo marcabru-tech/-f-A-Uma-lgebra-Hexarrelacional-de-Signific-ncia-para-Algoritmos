@@ -1,0 +1,10 @@
+{
+  "app.name": "六元关系显著性代数",
+  "nav.dashboard": "仪表盘",
+  "nav.relations": "关系",
+  "nav.operators": "运算符",
+  "nav.settings": "设置",
+  "plan.runs_per_day": "每天 {count} 次运行",
+  "error.run.timeout": "{seconds} 秒后超时",
+  "error.run.input_too_large": "输入过大（{kb} KB）"
+}

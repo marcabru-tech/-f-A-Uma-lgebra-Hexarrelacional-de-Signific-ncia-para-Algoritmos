@@ -1,0 +1,10 @@
+{
+  "app.name": "六元関係有意性代数",
+  "nav.dashboard": "ダッシュボード",
+  "nav.relations": "関係",
+  "nav.operators": "演算子",
+  "nav.settings": "設定",
+  "plan.runs_per_day": "1日あたり {count} 回実行",
+  "error.run.timeout": "{seconds} 秒後にタイムアウト",
+  "error.run.input_too_large": "入力が大きすぎます（{kb} KB）"
+}
