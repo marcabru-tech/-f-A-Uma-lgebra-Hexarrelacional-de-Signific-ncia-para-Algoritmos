@@ -1,6 +1,10 @@
 # $\pi\sqrt{f(A)}$: Álgebra Hexarrelacional de Significância para Algoritmos
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://python.org)
+![Security](https://img.shields.io/badge/security-STRIDE%20%2B%20NIST%20CSF%202.0-blue)
+![Compliance](https://img.shields.io/badge/compliance-LGPD%20%2B%20GDPR-green)
+![Architecture](https://img.shields.io/badge/arch-B2B%20%2B%20B2G%20ready-orange)
+![Revenue](https://img.shields.io/badge/pricing-US%2419--US%2412K%2Fyr-brightgreen)
 [![License](https://img.shields.io/badge/license-PolyForm%20Noncommercial-red.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
 ![Languages](https://img.shields.io/badge/langs-en%20%7C%20pt_BR%20%7C%20zh%20%7C%20ja%20%7C%20ar-blue)
@@ -184,6 +188,35 @@ transpiler = SemanticTranspiler(
 ```
 
 ---
+
+## 🏢 Platform Readiness
+
+This repository is the **core mathematical engine** behind the HexaRelational Significance Platform (HRSP). The engine is production-ready and powers a full SaaS platform targeting both B2B and B2G markets:
+
+- **B2B** — Code modernization audits, migration quality metrics, semantic distance measurement for engineering teams
+- **B2G** — Legacy program support, compliance evidence, formal audit trails, and software governance for public agencies
+- **Freemium → Enterprise** — From anonymous 2 runs/day to full RBAC + SSO/SAML + custom retention (up to 7 years)
+- **Security-first** — STRIDE threat model, Cloudflare WAF + Turnstile, LGPD/GDPR by design, post-quantum cryptography roadmap
+
+## 📁 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [PRD — Product Requirements](docs/PRD.md) | Personas (Dev, CTO, B2G Analyst, Researcher), pricing tiers (Free → Enterprise), roadmap R0–R6 |
+| [Architecture](docs/ARCHITECTURE.md) | System design (Cloudflare → Next.js → FastAPI → PostgreSQL), multi-tenant RBAC, data flow diagrams |
+| [Threat Model](docs/THREAT_MODEL.md) | STRIDE analysis, OWASP Top 10, NIST CSF 2.0 controls, abuse scoring, PQC migration roadmap |
+| [Revenue & Billing Defense](docs/REVENUE_DEFENSE.md) | Stripe integration, metering (Redis), paywall rules, fair use policy, LGPD/GDPR data processing bases |
+| [Terms of Use](TERMS.md) | IP ownership, permitted uses, commercial licensing conditions |
+
+## 🔒 Security & Compliance
+
+The platform is designed with **privacy by design** and **security by default**:
+
+- Source code from users is **never persisted** in logs — only SHA-256 hashes are stored
+- Full LGPD (Lei 13.709/2018) and GDPR (Reg. EU 2016/679) compliance with documented legal bases for each data processing activity
+- Cryptographic agility: all algorithms are abstracted behind interfaces, enabling migration to NIST PQC standards (FIPS 203/204/205) without structural refactoring
+- Cloudflare edge: WAF, rate limiting, Turnstile (anti-bot), DDoS protection, TLS 1.3
+- Enterprise/Gov: BYOK for LLM, "LLM Off" mode, SSO/SAML, dedicated DPO
 
 ## Arquitetura
 
